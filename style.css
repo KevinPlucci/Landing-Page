@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color:rgba(41, 35, 35, 0.145);
+	padding: 20px;
+}
+
+main {
+	padding: 50px;
+}
+
+.image {
+	float: left;
+	width: 50%;
+}
+
+.content {
+	background-image: url(background.jpg);
+	background-size: cover;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+footer {
+	background-color: #eee;
+	bottom: 0;
+	height: 100px;
+	position: fixed;
+	width: 100%;
+}
+
+.icons {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background-size: 32px 32px;
+	width: 32px;
+	height: 32px;
+}
+
+.buttons {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+
+button {
+	background-color: #ccc;
+	border: none;
+	color: #fff;
+}
