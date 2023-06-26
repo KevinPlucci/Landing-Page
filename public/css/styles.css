@@ -169,7 +169,7 @@ footer {
   /* Estilos para pantallas más pequeñas */
 
   .fixed-button {
-    /* Otros estilos del botón */    
+    /* Otros estilos del botón */
     font-size: 14px; /* Ajusta el tamaño de fuente del botón según tus preferencias */
     padding: 8px 16px; /* Ajusta el relleno del botón según tus preferencias */
   }
@@ -179,44 +179,28 @@ footer {
     height: auto;
     z-index: auto;
   }
-  
+
   .contact-form label,
   .contact-form input,
   .contact-form textarea {
     width: 100%; /* Los elementos del formulario se expanden para ocupar todo el ancho disponible */
     box-sizing: border-box; /* Incluye el relleno en el ancho total de los elementos */
   }
-  
+
   .contact-form button {
     margin-top: 20px; /* Añade un margen superior opcional para separar el botón */
   }
-  
+
   .background-section {
-    height: calc(100vh - 80px); /* La sección ocupa el 100% de la altura de la pantalla menos la altura del encabezado */
+    height: calc(
+      100vh - 80px
+    ); /* La sección ocupa el 100% de la altura de la pantalla menos la altura del encabezado */
     margin-top: 0; /* Elimina el margen superior */
   }
 
-  section:not(.contact-form):not(.background-section):not(.fixed-buttons-container) {
+  section:not(.contact-form):not(.background-section):not(
+      .fixed-buttons-container
+    ) {
     display: none; /* Oculta todas las secciones excepto contact-form y background-section */
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
