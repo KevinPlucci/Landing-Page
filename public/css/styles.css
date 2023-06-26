@@ -1,167 +1,166 @@
 .fixed-buttons-container {
-	position: fixed;
-	top: 20px;
-	left: 50%;
-	transform: translateX(-50%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 9999;
-  }
-  
-  .fixed-button {
-	display: inline-block;
-	margin: 0 5px;
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-  }
-  
-  .fixed-button:hover {
-	background-color: #ff0;
-  }
-  
-  body {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
-	background-color: #f9f9f9;
-  }
-  
-  header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-  }
-  
-  nav {
-	text-align: center;
-  }
-  
-  nav a {
-	color: #fff;
-	text-decoration: none;
-	margin: 0 10px;
-	transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-	color: #ff0;
-  }
-  
-  section {
-	padding: 50px;
-	background-color: #fff;
-	margin-bottom: 20px;
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-	color: #333;
-  }
-  
-  .contact-form {
-	max-width: 400px;
-	margin: 80px auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-  }
-  
-  .contact-form label,
-  .contact-form input,
-  .contact-form textarea {
-	display: block;
-	margin-bottom: 10px;
-	width: 100%;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-  }
-  
-  .contact-form button {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-  }
-  
-  .contact-form button:hover {
-	background-color: #ff0;
-  }
-  
-  .image-section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	margin-bottom: 20px;
-	margin-top: 40px;
-  }
-  
-  .image-section img {
-	max-height: 100%;
-	object-fit: contain;
-  }
-  
-  .image-section img:first-child {
-	width: 600px !important;
-	height: 300px !important;
-  }
-  
-  .image-section img:last-child {
-	max-width: 40%;
-  }
-  
-  .background-section {
-	height: 100vh;
-	background-image: url('https://img.freepik.com/vector-premium/fondo-geometrico-fluido-landing-page_97102-5.jpg');
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 40px;
-  }
-  
-  .social-icons {
-	text-align: center;
-	margin-top: 20px;
-  }
-  
-  .social-icons a {
-	display: inline-block;
-	margin: 0 10px;
-	color: #fff;
-	transition: color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-	color: #ff0;
-  }
-  
-  footer {
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.fixed-button {
+  display: inline-block;
+  margin: 0 5px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fixed-button:hover {
+  background-color: #ff0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff0;
+}
+
+section {
+  padding: 50px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff0;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.image-section img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.image-section img:first-child {
+  width: 600px !important;
+  height: 300px !important;
+}
+
+.image-section img:last-child {
+  max-width: 40%;
+}
+
+.background-section {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/vector-premium/fondo-geometrico-fluido-landing-page_97102-5.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
