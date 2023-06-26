@@ -164,3 +164,59 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* Estilos para dispositivos móviles */
+
+@media screen and (max-width: 600px) {
+  /* Estilos para la sección (section) */
+  section {
+    padding: 30px 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .contact-form {
+    max-width: 450px;
+    margin: 60px auto;
+  }
+
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+  }
+
+  .contact-form button {
+    padding: 10px 20px;
+  }
+
+  .image-section {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-section img:first-child {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  .image-section img:last-child {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+
+
