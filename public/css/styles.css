@@ -165,57 +165,57 @@ footer {
   align-items: center;
 }
 
-/* Estilos para dispositivos móviles */
-
 @media screen and (max-width: 600px) {
-  /* Estilos para la sección (section) */
-  section {
-    padding: 30px 20px;
-  }
+  /* Estilos para pantallas más pequeñas */
 
-  h2 {
-    font-size: 24px;
+  .fixed-button {
+    /* Otros estilos del botón */    
+    font-size: 14px; /* Ajusta el tamaño de fuente del botón según tus preferencias */
+    padding: 8px 16px; /* Ajusta el relleno del botón según tus preferencias */
   }
 
   .contact-form {
-    max-width: 450px;
-    margin: 60px auto;
+    position: static;
+    height: auto;
+    z-index: auto;
   }
-
+  
   .contact-form label,
   .contact-form input,
   .contact-form textarea {
-    margin-bottom: 10px;
-    width: 100%;
+    width: 100%; /* Los elementos del formulario se expanden para ocupar todo el ancho disponible */
+    box-sizing: border-box; /* Incluye el relleno en el ancho total de los elementos */
   }
-
-  .contact-form input,
-  .contact-form textarea {
-    padding: 10px;
-  }
-
+  
   .contact-form button {
-    padding: 10px 20px;
+    margin-top: 20px; /* Añade un margen superior opcional para separar el botón */
+  }
+  
+  .background-section {
+    height: calc(100vh - 80px); /* La sección ocupa el 100% de la altura de la pantalla menos la altura del encabezado */
+    margin-top: 0; /* Elimina el margen superior */
   }
 
-  .image-section {
-    margin-top: 10px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .image-section img:first-child {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 300px;
-    max-height: 200px;
-  }
-
-  .image-section img:last-child {
-    max-width: 100%;
-    margin-top: 10px;
+  section:not(.contact-form):not(.background-section):not(.fixed-buttons-container) {
+    display: none; /* Oculta todas las secciones excepto contact-form y background-section */
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
